@@ -92,7 +92,7 @@ class thread {
             throw new RuntimeException("WTH are you doing");
 
         formattedContent.clear();
-        int maxHeightPerTweet = (maxTweetLen / 2) / width;
+        int maxHeightPerTweet = (maxTweetLen / 2) / (width + 1);
         int tweetsNeeded = totalHeight / maxHeightPerTweet +
                 (totalHeight % maxHeightPerTweet == 0 ? 0 : 1);
         for (int i = 0; i < tweetsNeeded; i++) {
