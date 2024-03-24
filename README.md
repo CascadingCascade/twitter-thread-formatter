@@ -5,4 +5,4 @@ Then I was struck with an inspiration: If you won't do me right, then I am going
 
 I tailored this to suit my own writing style (mostly Chinese-English code switching), I may or may not add more features later.
 
-Don't ask me how to use it or where's a convenient exe file for you to download. Read the f*ckin' code.
+Don't ask me how to use it or where's the convenient exe file for you to download. Read the f*ckin' code, it's just 100+ lines.
