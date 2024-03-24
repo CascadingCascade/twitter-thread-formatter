@@ -20,7 +20,7 @@ public class Main {
             builder.append(line);
             line = scanner.nextLine();
         }
-        if (builder.length() <= thread.maxTweetLen) {
+        if (builder.length() <= thread.maxTweetLen / 2) {
             System.out.println("You don't need a thread for that idiot");
             System.exit(418);
         }
